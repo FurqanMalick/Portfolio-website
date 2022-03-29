@@ -39,7 +39,7 @@
 }
 
 .filterable-button .btn:hover {
-  background-color: #747474;
+  background-color: #7C9482;
   color: #fff;
 }
 
@@ -113,8 +113,8 @@
 
 .page-home .badge {
   padding: 16px 24px;
-  background-color: rgba(239, 56, 36, 0.15);
-  color: #EF3724;
+  background-color: #d0b5871e;
+  color: #D0B587;
   text-shadow: 0 2px 4px rgba(23, 25, 37, 0.4);
   font-size: 16px;
   border-radius: 40px;
@@ -202,7 +202,7 @@
 .timeline li .title {
   width: 150px;
   padding: 6px 20px;
-  background-color: #747474;
+  background-color: #7C9482;
   color: #fff;
   font-weight: 500;
   border-radius: 30px 0 60px 30px;
@@ -248,7 +248,7 @@
   text-align: center;
   font-size: 32px;
   border-radius: 50%;
-  background-color: #f4f5f8;
+  background-color: #d0b5873b;
 }
 
 .card-service .caption {
@@ -401,7 +401,7 @@
 
 .post-grid .post-category {
   font-weight: 500;
-  color: #EF3724;
+  color: #043435;
   text-decoration: none;
 }
 
@@ -457,8 +457,8 @@
   display: block;
   margin: 0;
   padding: 50px 0;
-  background-color: #171925;
-  color: #9FA2AB;
+  background-color: #343a40;
+  color: #D0B587;
 }
 
 .footer-info {
@@ -475,7 +475,7 @@
 .vg-footer .form-control {
   padding-left: 20px;
   padding-right: 20px;
-  background-color: #202334;
+  background-color: #686B55;
   color: #9FA2AB;
   border: 0;
   box-shadow: 0 2px 8px rgba(16, 18, 27, 0.6);
@@ -497,28 +497,28 @@
 /* Theme color style */
 /* Theme Red */
 .theme-red .badge-subhead {
-  background-color: rgba(239, 56, 36, 0.15);
-  color: #EF3724;
+  background-color: #7c94825e;
+  color: #043435;
 }
 
 .theme-red .filterable-button .btn.selected,
 .theme-red .filterable-button .btn:focus {
-  background-color: #EF3724;
+  background-color: #043435;
   color: #fff;
-  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #EF3724;
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #043435;
 }
 
 .theme-red .page-about .img-place::before {
-  border-color: #EF3724;
+  border-color: #043435;
 }
 
 .theme-red .timeline li:first-child .title {
-  background-color: #EF3724;
+  background-color: #043435;
 }
 
 .theme-red .timeline li:first-child::before {
-  background-color: #EF3724;
-  box-shadow: 0 0 0 2px #EF3724;
+  background-color: #043435;
+  box-shadow: 0 0 0 2px #043435;
 }
 
 /* Theme Blue */
@@ -660,3 +660,4 @@
 .theme-purple .post-grid .post-category {
   color: #6f42c1;
 }
+

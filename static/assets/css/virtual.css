@@ -28,7 +28,7 @@
  */
 
 :root {
-    --theme-red: #ef3724;
+    --theme-red: #043435;
     --theme-blue: #2960f7;
     --theme-green: #8cc63f;
     --theme-orange: #fd7e14;
@@ -249,7 +249,7 @@ a:hover, a:active {
     text-align: center;
     font-size: 18px;
     border-radius: 50%;
-    background-color: #52565c;
+    background-color: #043435;
     color: #fff;
     visibility: hidden;
     cursor: pointer;
@@ -337,7 +337,7 @@ a:hover, a:active {
 }
 
 .bg-theme-red {
-    background-color: #ef3724 !important;
+    background-color: #043435 !important;
 }
 
 .bg-theme-blue {
@@ -357,7 +357,7 @@ a:hover, a:active {
 }
 
 .fg-theme-red {
-    color: #ef3724 !important;
+    color: #043435 !important;
 }
 
 .fg-theme-blue {
@@ -838,7 +838,7 @@ a:hover, a:active {
 }
 
 .owl-dots .owl-dot.active span {
-    background: #3c94f8;
+    background: #043435;
 }
 
 /* OpenGraph Grid */
@@ -1117,64 +1117,72 @@ a:hover, a:active {
 /* Theme color style */
 
 /* Theme red */
+body{
+    opacity: 0;
+    transition: opacity 1s;
+}
 .theme-red .bg-theme {
-    background-color: #EF3724 !important;
+    background-color: #7C9482 !important;
 }
 
 .theme-red .fg-theme {
-    color: #EF3724 !important;
+    color: #D0B587 !important;
+}
+
+.theme-red .tagging {
+    color: #043435 !important;
 }
 
 .theme-red .btn-theme {
-    background-color: #EF3724;
+    background-color: #043435;
     color: #fff;
 }
 
 .theme-red .btn-theme:hover {
-    background-color: #F04936;
+    background-color: #7C9482;
     color: #fff;
 }
 
 .theme-red .btn-theme:focus {
-    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #EF3724;
+    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #043435;
 }
 
 .theme-red .btn-theme-outline {
-    color: #EF3724;
-    box-shadow: 0 0 0 2px #EF3724;
+    color: #043435;
+    box-shadow: 0 0 0 2px #043435;
 }
 
 .theme-red .btn-theme-outline:hover {
-    background-color: #EF3724;
+    background-color: #043435;
     color: #fff;
 }
 
 .theme-red .btn-theme-outline:focus {
-    background-color: #EF3724;
+    background-color: #043435;
     color: #fff;
-    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #EF3724;
+    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #043435;
 }
 
 .theme-red .btn-fab {
-    background-color: #EF3724;
+    background-color: #043435;
     color: #fff;
 }
 
 .theme-red .btn-fab:hover {
-    background-color: #F04936;
+    background-color: #7C9482;
     color: #fff;
 }
 
 .theme-red .progress {
-    box-shadow: 0 0 0 2px #EF3724;
+    box-shadow: 0 0 0 2px #043435;
 }
 
 .theme-red .progress-bar {
-    background-color: #EF3724;
+    background-color: #043435;
 }
 
 .theme-red .theme-list li::before {
-    border-color: #EF3724;
+    border-color: #043435;
 }
 
 
